@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41F8217C19FF738C00018F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8217B19FF738C00018F40 /* AppDelegate.swift */; };
+		41F8217E19FF738C00018F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8217D19FF738C00018F40 /* ViewController.swift */; };
+		41F8218119FF738C00018F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F8217F19FF738C00018F40 /* Main.storyboard */; };
+		41F8218319FF738C00018F40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F8218219FF738C00018F40 /* Images.xcassets */; };
+		41F8218619FF738C00018F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F8218419FF738C00018F40 /* LaunchScreen.xib */; };
+		41F8219219FF738D00018F40 /* Biodata_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8219119FF738D00018F40 /* Biodata_SwiftTests.swift */; };
+		41F8219C19FF742A00018F40 /* Biodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8219B19FF742A00018F40 /* Biodata.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F8218C19FF738D00018F40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F8216E19FF738C00018F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F8217519FF738C00018F40;
+			remoteInfo = "Biodata-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41F8217619FF738C00018F40 /* Biodata-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biodata-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F8217A19FF738C00018F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F8217B19FF738C00018F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41F8217D19FF738C00018F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41F8218019FF738C00018F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41F8218219FF738C00018F40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41F8218519FF738C00018F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		41F8218B19FF738D00018F40 /* Biodata-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biodata-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F8219019FF738D00018F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F8219119FF738D00018F40 /* Biodata_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biodata_SwiftTests.swift; sourceTree = "<group>"; };
+		41F8219B19FF742A00018F40 /* Biodata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Biodata.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F8217319FF738C00018F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F8218819FF738D00018F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F8216D19FF738C00018F40 = {
+			isa = PBXGroup;
+			children = (
+				41F8217819FF738C00018F40 /* Biodata-Swift */,
+				41F8218E19FF738D00018F40 /* Biodata-SwiftTests */,
+				41F8217719FF738C00018F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41F8217719FF738C00018F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F8217619FF738C00018F40 /* Biodata-Swift.app */,
+				41F8218B19FF738D00018F40 /* Biodata-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F8217819FF738C00018F40 /* Biodata-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				41F8217B19FF738C00018F40 /* AppDelegate.swift */,
+				41F8217D19FF738C00018F40 /* ViewController.swift */,
+				41F8219B19FF742A00018F40 /* Biodata.swift */,
+				41F8217F19FF738C00018F40 /* Main.storyboard */,
+				41F8218219FF738C00018F40 /* Images.xcassets */,
+				41F8218419FF738C00018F40 /* LaunchScreen.xib */,
+				41F8217919FF738C00018F40 /* Supporting Files */,
+			);
+			path = "Biodata-Swift";
+			sourceTree = "<group>";
+		};
+		41F8217919FF738C00018F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F8217A19FF738C00018F40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41F8218E19FF738D00018F40 /* Biodata-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F8219119FF738D00018F40 /* Biodata_SwiftTests.swift */,
+				41F8218F19FF738D00018F40 /* Supporting Files */,
+			);
+			path = "Biodata-SwiftTests";
+			sourceTree = "<group>";
+		};
+		41F8218F19FF738D00018F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F8219019FF738D00018F40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F8217519FF738C00018F40 /* Biodata-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F8219519FF738D00018F40 /* Build configuration list for PBXNativeTarget "Biodata-Swift" */;
+			buildPhases = (
+				41F8217219FF738C00018F40 /* Sources */,
+				41F8217319FF738C00018F40 /* Frameworks */,
+				41F8217419FF738C00018F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Biodata-Swift";
+			productName = "Biodata-Swift";
+			productReference = 41F8217619FF738C00018F40 /* Biodata-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F8218A19FF738D00018F40 /* Biodata-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F8219819FF738D00018F40 /* Build configuration list for PBXNativeTarget "Biodata-SwiftTests" */;
+			buildPhases = (
+				41F8218719FF738D00018F40 /* Sources */,
+				41F8218819FF738D00018F40 /* Frameworks */,
+				41F8218919FF738D00018F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F8218D19FF738D00018F40 /* PBXTargetDependency */,
+			);
+			name = "Biodata-SwiftTests";
+			productName = "Biodata-SwiftTests";
+			productReference = 41F8218B19FF738D00018F40 /* Biodata-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F8216E19FF738C00018F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jian Yao Ang";
+				TargetAttributes = {
+					41F8217519FF738C00018F40 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					41F8218A19FF738D00018F40 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 41F8217519FF738C00018F40;
+					};
+				};
+			};
+			buildConfigurationList = 41F8217119FF738C00018F40 /* Build configuration list for PBXProject "Biodata-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F8216D19FF738C00018F40;
+			productRefGroup = 41F8217719FF738C00018F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F8217519FF738C00018F40 /* Biodata-Swift */,
+				41F8218A19FF738D00018F40 /* Biodata-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F8217419FF738C00018F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F8218119FF738C00018F40 /* Main.storyboard in Resources */,
+				41F8218619FF738C00018F40 /* LaunchScreen.xib in Resources */,
+				41F8218319FF738C00018F40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F8218919FF738D00018F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F8217219FF738C00018F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F8219C19FF742A00018F40 /* Biodata.swift in Sources */,
+				41F8217E19FF738C00018F40 /* ViewController.swift in Sources */,
+				41F8217C19FF738C00018F40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F8218719FF738D00018F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F8219219FF738D00018F40 /* Biodata_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F8218D19FF738D00018F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F8217519FF738C00018F40 /* Biodata-Swift */;
+			targetProxy = 41F8218C19FF738D00018F40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41F8217F19FF738C00018F40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F8218019FF738C00018F40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41F8218419FF738C00018F40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41F8218519FF738C00018F40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41F8219319FF738D00018F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41F8219419FF738D00018F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F8219619FF738D00018F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Biodata-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41F8219719FF738D00018F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Biodata-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		41F8219919FF738D00018F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Biodata-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biodata-Swift.app/Biodata-Swift";
+			};
+			name = Debug;
+		};
+		41F8219A19FF738D00018F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Biodata-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biodata-Swift.app/Biodata-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F8217119FF738C00018F40 /* Build configuration list for PBXProject "Biodata-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F8219319FF738D00018F40 /* Debug */,
+				41F8219419FF738D00018F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F8219519FF738D00018F40 /* Build configuration list for PBXNativeTarget "Biodata-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F8219619FF738D00018F40 /* Debug */,
+				41F8219719FF738D00018F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41F8219819FF738D00018F40 /* Build configuration list for PBXNativeTarget "Biodata-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F8219919FF738D00018F40 /* Debug */,
+				41F8219A19FF738D00018F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41F8216E19FF738C00018F40 /* Project object */;
+}
