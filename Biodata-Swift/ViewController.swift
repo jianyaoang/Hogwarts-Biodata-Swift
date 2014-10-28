@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         
         createBiodataList()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         biodata1.job = "Professor"
         biodata1.school = "Hogwarts"
         biodata1.magic = "Confundo"
+        biodata1.image = UIImage(named: "Albus")
         
         var biodata2 = Biodata()
         biodata2.name = "Voldermort"
@@ -39,6 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         biodata2.job = "Master of Dark Arts"
         biodata2.school = "Hogwarts"
         biodata2.magic = "Avada Kedavra"
+        biodata2.image = UIImage(named: "Voldermort")
         
         var biodata3 = Biodata()
         biodata3.name = "Harry"
@@ -46,11 +49,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         biodata3.job = "Student"
         biodata3.school = "Hogwarts"
         biodata3.magic = "Expelliarmus"
+        biodata3.image = UIImage(named: "Harry")
         
         biodata = [biodata1, biodata2, biodata3]
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         return biodata.count
     }
     
@@ -66,5 +71,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!)
+    {
+        if segue.identifier == "ToBiodataDetailVC"
+        {
+            let indexPath = self.biodataTableView.indexPathForSelectedRow()
+            var biodata: Biodata = self.biodata[indexPath!.row] as Biodata
+            
+            var biodataDetailVC:BiodataDetailViewController = BiodataDetailViewController()
+            biodataDetailVC = segue.destinationViewController as BiodataDetailViewController
+            biodataDetailVC.biodata = biodata
+            
+        }
+    }
+    
 }
 

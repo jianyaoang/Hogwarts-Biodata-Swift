@@ -14,6 +14,7 @@
 		41F8218619FF738C00018F40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F8218419FF738C00018F40 /* LaunchScreen.xib */; };
 		41F8219219FF738D00018F40 /* Biodata_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8219119FF738D00018F40 /* Biodata_SwiftTests.swift */; };
 		41F8219C19FF742A00018F40 /* Biodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8219B19FF742A00018F40 /* Biodata.swift */; };
+		41F8219E19FF935100018F40 /* BiodataDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F8219D19FF935100018F40 /* BiodataDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		41F8219019FF738D00018F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F8219119FF738D00018F40 /* Biodata_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biodata_SwiftTests.swift; sourceTree = "<group>"; };
 		41F8219B19FF742A00018F40 /* Biodata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Biodata.swift; sourceTree = "<group>"; };
+		41F8219D19FF935100018F40 /* BiodataDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiodataDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				41F8217D19FF738C00018F40 /* ViewController.swift */,
 				41F8219B19FF742A00018F40 /* Biodata.swift */,
 				41F8217F19FF738C00018F40 /* Main.storyboard */,
+				41F8219D19FF935100018F40 /* BiodataDetailVC.swift */,
 				41F8218219FF738C00018F40 /* Images.xcassets */,
 				41F8218419FF738C00018F40 /* LaunchScreen.xib */,
 				41F8217919FF738C00018F40 /* Supporting Files */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F8219E19FF935100018F40 /* BiodataDetailVC.swift in Sources */,
 				41F8219C19FF742A00018F40 /* Biodata.swift in Sources */,
 				41F8217E19FF738C00018F40 /* ViewController.swift in Sources */,
 				41F8217C19FF738C00018F40 /* AppDelegate.swift in Sources */,

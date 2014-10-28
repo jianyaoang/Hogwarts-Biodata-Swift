@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class Biodata: NSObject {
     
@@ -15,6 +16,6 @@ class Biodata: NSObject {
     var school: NSString?
     var age: Int?
     var magic: NSString?
-    
+    var image: UIImage?
     
 }
